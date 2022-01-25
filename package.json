@@ -1,0 +1,14 @@
+{
+  "name": "UzuProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wilson Anderson Simwanza",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+        "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+}
+}
